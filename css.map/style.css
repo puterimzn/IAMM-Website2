@@ -1,0 +1,184 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f5ec;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner-image {
+    width: 100%;
+    height: 540px;
+    filter: brightness(0.7);
+}
+
+.header-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.logo {
+    width: 140px;
+    margin-right: 20px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.banner-text h2 {
+    font-size: 3em;
+    margin: 0;
+    color: #fff;
+}
+
+.banner-text p {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.top-right-nav {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.top-right-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.top-right-nav ul li {
+    margin-left: 20px;
+}
+
+.top-right-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.3em;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.top-right-nav ul li a:hover {
+    color: #86edeb;
+}
+
+.breadcrumb {
+    font-size: 1em; 
+    margin: 20px 0; 
+    color: #333; 
+    padding: 0 20px; 
+}
+
+.breadcrumb a {
+    text-decoration: none; 
+    color: blue; 
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline; 
+}
+
+.divider
+ {
+    border: none; 
+    height: 2px;
+    background-color: grey;
+    margin: 15px 0 30px; 
+    width: 98%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.maps-picture {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin: 0 auto;
+    max-width: 800px; 
+    border: 2px solid #ccc; 
+    border-radius: 10px;
+    padding: 10px; 
+    background-color: #f9f9f9; 
+}
+
+.maps-picture img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+}
+
+.maps-picture figcaption {
+    text-align: center; 
+    color: #555; 
+    font-style: italic;
+    margin-top: 5px; 
+    font-size: 14px; 
+}
+
+.maps-divider {
+    height: 2px; 
+    background-color: black; 
+    margin: 15px 0 30px; 
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-container {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.download-button {
+    padding: 10px 20px;
+    margin: 10px; 
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    font-size: 16px; 
+}
+
+.download-button:hover {
+    background-color: #45a049; 
+}
+
+footer {
+    text-align: center; 
+    padding: 10px; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+    background-color: white;
+}
+
+
+.footer-copy {
+    margin: 0; 
+}
